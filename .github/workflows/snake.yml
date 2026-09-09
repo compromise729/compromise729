@@ -8,7 +8,6 @@ on:
     branches: [main]
     paths:
       - .github/workflows/snake.yml
-      - scripts/generate_telemetry.py
 
 permissions:
   contents: write
@@ -26,13 +25,6 @@ jobs:
       - uses: actions/checkout@v4
         with:
           ref: main
-      - uses: actions/setup-python@v5
-        with:
-          python-version: '3.13'
-      - name: Generate public telemetry
-        run: python scripts/generate_telemetry.py
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       - name: Generate contribution snake
         uses: Platane/snk/svg-only@v3
         with:
@@ -47,7 +39,7 @@ jobs:
           python - <<'PY'
           from pathlib import Path
           from xml.etree import ElementTree
-          for name in ('github-telemetry.svg', 'contribution-calendar.svg', 'github-contribution-grid-snake.svg', 'github-contribution-grid-snake-dark.svg'):
+          for name in ('github-contribution-grid-snake.svg', 'github-contribution-grid-snake-dark.svg'):
               root = ElementTree.parse(Path('assets') / name).getroot()
               assert root.tag == '{http://www.w3.org/2000/svg}svg', name
           PY
@@ -55,7 +47,7 @@ jobs:
         run: |
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add assets/github-telemetry.svg assets/contribution-calendar.svg assets/github-contribution-grid-snake.svg assets/github-contribution-grid-snake-dark.svg
+          git add assets/github-contribution-grid-snake.svg assets/github-contribution-grid-snake-dark.svg
           if git diff --cached --quiet; then exit 0; fi
           git commit -m 'chore: refresh profile visuals'
           git pull --rebase origin main

@@ -1,297 +1,98 @@
 <p align="center">
-  <img src="./assets/cyber-db-core.svg" width="100%" alt="compromise729 · Cyber DB Core"/>
+  <img src="./assets/cyber-db-core.svg" width="100%" alt="compromise729 · Database Systems / Security by design, performance by measurement"/>
 </p>
 
 <div align="center">
 
 [![Typing SVG](https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=20&duration=2500&pause=850&color=00E5FF&center=true&vCenter=true&repeat=true&width=920&height=44&lines=Semantic-Secure+Encrypted+Database;RMDB+%C2%B7+DBMS+Internals+%C2%B7+Storage+%C2%B7+Recovery;Information+Security+%C2%B7+Systems+Engineering;Secure+by+Design.+Fast+by+Measurement.)](https://git.io/typing-svg)
 
-<img src="https://komarev.com/ghpvc/?username=compromise729&label=PROFILE%20SIGNALS&color=0891b2&style=flat-square" alt="profile views"/>
-<img src="https://img.shields.io/badge/FOCUS-Encrypted%20Database-7c3aed?style=flat-square" alt="Encrypted Database"/>
-<img src="https://img.shields.io/badge/CORE-RMDB-0284c7?style=flat-square" alt="RMDB"/>
-<img src="https://img.shields.io/badge/DOMAIN-Information%20Security-0f766e?style=flat-square" alt="Information Security"/>
+**🔐 密态数据库研究 &nbsp; / &nbsp; ⚙️ RMDB 内核工程 &nbsp; / &nbsp; 🛡️ 信息安全**
+
+</div>
+
+<p align="center">
+  <img src="./assets/lab-stickers.svg" width="92%" alt="研究工作台贴纸：加密数据库、SQL 执行与系统调试"/>
+</p>
+
+<br/>
+
+## 🔐 `01 / ENCRYPTED.DATABASE`
+
+<sub>RESEARCH IN PROGRESS &nbsp; · &nbsp; openGauss</sub>
+
+### 语义安全约束下的密态数据库优化
+
+围绕基于 openGauss 的密态数据库，研究**安全语义、数据访问与查询性能**之间的关系。
+
+- **密态访问** — 索引组织、访问路径与查询执行优化。
+- **执行开销** — 加密计算与数据访问带来的性能代价。
+- **查询安全** — 查询过程中的信息泄露与语义安全要求。
+
+`Semantic Security` &nbsp; `Encrypted Index` &nbsp; `Query Optimization`
+
+<br/>
+
+## ⚙️ `02 / RMDB.INTERNALS`
+
+<sub>DATABASE MANAGEMENT SYSTEM DESIGN COMPETITION</sub>
+
+### 从存储到执行，深入数据库内核
+
+数据库管理系统设计赛项目 **RMDB**，关注内核实现、正确性与性能优化。
+
+<p align="center">
+  <img src="./assets/kernel-map.svg" width="100%" alt="RMDB 关注方向：查询执行、存储索引、事务并发、日志恢复"/>
+</p>
+
+- **存储与查询** — 记录管理、索引扫描与执行引擎。
+- **事务与恢复** — 并发控制、日志机制与崩溃恢复。
+- **性能与验证** — TPC-C 负载、吞吐、尾延迟与回归检查。
+
+`C++` &nbsp; `Storage Engine` &nbsp; `Transaction` &nbsp; `Recovery`
+
+<br/>
+
+## 🛡️ `03 / SECURITY.PERSPECTIVE`
+
+<sub>INFORMATION SECURITY × DATABASE SYSTEMS</sub>
+
+**从密码算法到系统实现，关注数据保护、软件安全与数据库可靠性。**
+
+| 方向 | 关注内容 |
+| :--- | :--- |
+| **密码与数据保护** | 语义安全 · 密态存储 · 安全查询 |
+| **系统与软件安全** | 系统机制 · 逆向分析 · 实现细节 |
+| **数据库可靠性** | 事务隔离 · 故障恢复 · 一致性验证 |
+
+<br/>
+
+## 📚 `04 / OPEN.KNOWLEDGE`
+
+<sub>NANKAI UNIVERSITY &nbsp; · &nbsp; INFORMATION SECURITY</sub>
+
+### [NKU-InformationSecurity ↗](https://github.com/compromise729/NKU-InformationSecurity)
+
+南开大学信息安全**课程课件与学习资料**整理，持续积累笔记、复习材料与实验记录。
+
+`课件` &nbsp; `学习资料` &nbsp; `笔记` &nbsp; `复习材料`
+
+[浏览仓库 →](https://github.com/compromise729/NKU-InformationSecurity) &nbsp;&nbsp; [资料反馈 →](https://github.com/compromise729/NKU-InformationSecurity/issues)
+
+<br/>
+
+## 🧰 `05 / TOOLCHAIN`
+
+<div align="center">
+
+[![Development tools](https://skillicons.dev/icons?i=cpp,c,python,linux,git,cmake,docker&theme=dark&perline=7)](https://skillicons.dev)
+
+`C / C++` &nbsp; `Python` &nbsp; `SQL` &nbsp; `Linux` &nbsp; `Git` &nbsp; `CMake` &nbsp; `GDB`
 
 </div>
 
 <br/>
 
-## `01 // SYSTEM.IDENTITY`
-
-```console
-compromise729@cyber-db:~$ whoami
-> Information Security / Database Systems
-
-compromise729@cyber-db:~$ cat current_focus
-> Semantic-security-oriented encrypted database optimization
-> openGauss research · RMDB · storage · transaction · recovery · execution
-
-compromise729@cyber-db:~$ cat knowledge_base
-> Nankai University Information Security learning resources
-> courseware · learning materials · notes · review materials
-
-compromise729@cyber-db:~$ echo $PRINCIPLE
-> Secure by Design. Fast by Measurement. Clear by Architecture.
-```
-
-<table>
-<tr>
-<td width="58%" valign="top">
-
-### `BUILDING`
-
-我主要关注 **数据库系统、密态数据库、系统安全与底层性能优化**。
-
-当前工作重点是：在**语义安全**约束下优化基于 openGauss 的密态数据库执行与访问路径，同时持续完善数据库管理系统设计赛中的 **RMDB**，从存储层一路深入到事务、并发控制、日志恢复和执行引擎。
-
-</td>
-<td width="42%" valign="top">
-
-### `SIGNAL`
-
-```text
-RESEARCH    → Semantic Security
-ENGINEERING → Database Internals
-MEASUREMENT → Latency / Throughput
-LEARNING    → Read / Build / Verify
-SHARING     → NKU Learning Materials
-```
-
-`C++` `SQL` `Linux` `CMake`  
-`Storage` `Recovery` `Concurrency`  
-`Cryptography` `System Security`
-
-</td>
-</tr>
-</table>
-
----
-
-## `02 // RESEARCH.VECTOR`
-
-<table>
-<tr>
-<td width="50%" valign="top">
-
-### 🔐 `SEMANTIC-SECURE DB`
-
-**Semantic Security × Encrypted Database × openGauss**
-
-```text
-┌─────────────┐
-│  Plaintext  │
-└──────┬──────┘
-       │ encrypt
-       ▼
-┌─────────────┐
-│ Ciphertext  │
-└──────┬──────┘
-       │
-       ├── secure query
-       ├── encrypted index
-       ├── access-path design
-       └── execution optimization
-```
-
-**Research Focus**
-
-- 语义安全约束下的数据库执行模型
-- 密态索引与访问路径优化
-- 密文操作引入的性能开销控制
-- 安全性、泄露面、查询能力与性能之间的权衡
-- 面向真实数据库负载的工程化优化
-
-`openGauss` · `Semantic Security` · `Query Optimization`
-
-</td>
-<td width="50%" valign="top">
-
-### ⚙️ `RMDB / DBMS CORE`
-
-**Database Management System Design Competition**
-
-```text
-SQL
- │
- ▼
-Parser ──► Planner
-             │
-             ▼
-          Executor
-          /      \
- Transaction     Storage
- /   |   \       /   |   \
-Lock Log Recovery Record Index Disk
-```
-
-**Engineering Focus**
-
-- 记录与存储管理
-- 索引与扫描
-- 事务与并发控制
-- 日志与崩溃恢复
-- 查询执行
-- TPC-C / 性能测试
-- 延迟、吞吐与资源占用分析
-
-</td>
-</tr>
-</table>
-
----
-
-## `03 // FEATURED.SYSTEMS`
-
-<table>
-<tr>
-<td width="50%" valign="top">
-
-### `A / ENCRYPTED DATABASE RESEARCH`
-
-**openGauss-based Semantic-Secure Encrypted Database**
-
-<p>
-<img src="https://img.shields.io/badge/openGauss-Research-7c3aed?style=for-the-badge"/>
-<img src="https://img.shields.io/badge/C%2B%2B-Systems-0f172a?style=for-the-badge&logo=cplusplus&logoColor=white"/>
-</p>
-
-```text
-Security Model
-      ↓
-Encrypted Storage
-      ↓
-Secure Access Path
-      ↓
-Query Execution
-      ↓
-Performance Optimization
-```
-
-目标不是单纯“让数据加密”，而是在保持核心安全语义的同时，让密态数据库拥有更可用的索引、查询与执行性能。
-
-</td>
-<td width="50%" valign="top">
-
-### `B / RMDB`
-
-**Relational Database Management System**
-
-<p>
-<img src="https://img.shields.io/badge/DBMS-Core-0284c7?style=for-the-badge"/>
-<img src="https://img.shields.io/badge/C%2B%2B-Engine-0f172a?style=for-the-badge&logo=cplusplus&logoColor=white"/>
-</p>
-
-```text
-Storage  →  Index
-   ↓          ↓
-Transaction → Lock
-   ↓          ↓
-Logging  →  Recovery
-   ↓
-Execution & Performance
-```
-
-重点关注数据库从“功能正确”走向“性能可测、恢复可靠、结构清晰”的全过程。
-
-</td>
-</tr>
-</table>
-
----
-
-## `04 // NKU.INFOSEC.KNOWLEDGE_BASE`
-
-<div align="center">
-
-### 🎓 Nankai University · Information Security
-
-**Courseware · Learning Materials · Notes · Personal Archive**
-
-[![Repository](https://img.shields.io/badge/OPEN-NKU--InformationSecurity-14b8a6?style=for-the-badge&logo=github&logoColor=white)](https://github.com/compromise729/NKU-InformationSecurity)
-
-</div>
-
-> [!NOTE]
-> 这里整理的是我在南开大学信息安全专业学习过程中收集和整理的**课程课件、学习资料、个人笔记与复习材料**，主要用于学习交流与知识归档。
-
-<table>
-<tr>
-<td width="50%" valign="top">
-
-### 📚 `COURSEWARE`
-
-```text
-Slides
-Handouts
-Reference Materials
-Review Materials
-```
-
-持续整理课程相关课件、参考资料与复习材料，方便后续查阅和知识回顾。
-
-</td>
-<td width="50%" valign="top">
-
-### 🧠 `LEARNING ARCHIVE`
-
-```text
-Notes
-Experiments
-Summaries
-Engineering Records
-```
-
-记录学习过程中的笔记、实验、总结与工程实践，让知识从“看过”变成“可复用”。
-
-</td>
-</tr>
-</table>
-
-<details>
-<summary><b>📖 Archive philosophy / 资料整理原则</b></summary>
-<br/>
-
-```text
-Collect   → 整理有价值的课程资料
-Learn     → 理解原理而不是机械保存
-Verify    → 通过实验和实践验证
-Document  → 形成自己的学习记录
-Share     → 降低重复学习成本
-```
-
-</details>
-
----
-
-## `05 // TECHNOLOGY.MATRIX`
-
-<div align="center">
-
-[![My Skills](https://skillicons.dev/icons?i=cpp,c,python,java,mysql,linux,git,github,cmake,docker,vscode&theme=dark&perline=11)](https://skillicons.dev)
-
-</div>
-
-```text
-DATABASE  :: SQL · Storage · Index · Transaction · Concurrency · Recovery
-SECURITY  :: Cryptography · Software Security · Reverse Engineering · System Security
-SYSTEMS   :: C/C++ · Linux · Debugging · Performance Profiling
-TOOLS     :: Git · GitHub · CMake · Docker · GDB · VS Code
-```
-
----
-
-## `06 // SYSTEM.TELEMETRY`
-
-<p align="center">
-  <img src="./assets/github-telemetry.svg" width="100%" alt="GitHub 公开仓库统计"/>
-</p>
-
-<p align="center">
-  <img src="./assets/contribution-calendar.svg" width="100%" alt="最近一年的 GitHub 贡献热力图"/>
-</p>
-
----
-
-## `07 // CONTRIBUTION.FLOW`
+## 🐍 `06 / CONTRIBUTION.FLOW`
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="./assets/github-contribution-grid-snake-dark.svg">
@@ -299,16 +100,11 @@ TOOLS     :: Git · GitHub · CMake · Docker · GDB · VS Code
   <img width="100%" alt="GitHub contribution snake" src="./assets/github-contribution-grid-snake.svg">
 </picture>
 
----
+<br/>
 
-<div align="center">
-
-### `// END OF TRANSMISSION`
-
-**Encrypt the data. Optimize the engine. Understand the system.**
-
-`compromise729 © Database Systems × Information Security`
+<p align="center">
+  <b>Secure by design. Fast by measurement.</b><br/>
+  <sub>compromise729 &nbsp; / &nbsp; Database Systems × Information Security</sub>
+</p>
 
 <img src="./assets/footer.svg" width="100%" alt="蓝紫色数据流页脚"/>
-
-</div>

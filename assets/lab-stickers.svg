@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="160" viewBox="0 0 1100 160" role="img" aria-labelledby="title">
+<title id="title">Lab stickers: encrypted data, SQL execution, systems debugging</title>
+<style>text{font-family:Consolas,Menlo,monospace}.blink{animation:blink 2s steps(2,end) infinite}@keyframes blink{50%{opacity:0}}@media(prefers-reduced-motion:reduce){.blink{animation:none}}</style>
+<g transform="translate(26 31) rotate(-3 155 48)">
+<rect x="3" y="7" width="306" height="94" rx="18" fill="#070b14"/>
+<rect width="306" height="94" rx="18" fill="#112a2c" stroke="#80e8d2" stroke-width="2"/>
+<rect x="7" y="7" width="292" height="80" rx="12" fill="none" stroke="#35716c" stroke-dasharray="3 5"/>
+<path d="M25 42V65C25 71 35 75 47 75S69 71 69 65V42" fill="#183d3d" stroke="#89eddc" stroke-width="2"/>
+<ellipse cx="47" cy="42" rx="22" ry="8" fill="#24504b" stroke="#89eddc" stroke-width="2"/>
+<path d="M25 54C25 60 35 64 47 64S69 60 69 54" fill="none" stroke="#89eddc"/>
+<path d="M40 31V25C40 14 54 14 54 25V31" fill="none" stroke="#c8fff2" stroke-width="3"/>
+<rect x="35" y="28" width="24" height="17" rx="4" fill="#9ff4df"/><circle cx="47" cy="35" r="2" fill="#112a2c"/>
+<text x="92" y="42" fill="#c0ffee" font-size="23" font-weight="bold">ENCRYPT IT.</text>
+<text x="93" y="65" fill="#8dc3b8" font-size="11" letter-spacing="1">DATA / UNDER COVER</text>
+</g>
+<g transform="translate(396 32) rotate(2 155 48)">
+<rect x="3" y="7" width="306" height="94" rx="18" fill="#070b14"/>
+<rect width="306" height="94" rx="18" fill="#24203c" stroke="#c0a3ef" stroke-width="2"/>
+<path d="M25 25H72V69H25Z" fill="#332b52" stroke="#bba4e8" stroke-width="2"/>
+<path d="M25 36H72M40 36V69M56 36V69M25 47H72M25 58H72" stroke="#8571ad"/>
+<path d="M45 43L59 51L45 59Z" fill="#e2cfff"/>
+<text x="92" y="42" fill="#e6d5ff" font-size="23" font-weight="bold">QUERY IT.</text>
+<text x="93" y="65" fill="#b4a3ce" font-size="11" letter-spacing="1">SQL / INTO THE ENGINE</text>
+</g>
+<g transform="translate(764 31) rotate(-2 155 48)">
+<rect x="3" y="7" width="306" height="94" rx="18" fill="#070b14"/>
+<rect width="306" height="94" rx="18" fill="#14253a" stroke="#8cc6ee" stroke-width="2"/>
+<rect x="24" y="25" width="51" height="44" rx="6" fill="#1d3851" stroke="#a3d5f5" stroke-width="2"/>
+<circle cx="34" cy="34" r="2" fill="#9dddf5"/><circle cx="41" cy="34" r="2" fill="#a7a4f3"/>
+<path d="M34 45L41 51L34 57" fill="none" stroke="#d1efff" stroke-width="2"/>
+<path d="M48 57H59" stroke="#d1efff" stroke-width="2" class="blink"/>
+<text x="92" y="42" fill="#d0edff" font-size="23" font-weight="bold">DEBUG IT.</text>
+<text x="93" y="65" fill="#9abbd1" font-size="11" letter-spacing="1">GDB / FOLLOW THE TRACE</text>
+</g>
+</svg>

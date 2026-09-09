@@ -1,113 +1,61 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 410" width="1200" height="410" role="img" aria-label="compromise729 Cyber DB Core">
-  <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#020617"/>
-      <stop offset=".48" stop-color="#071426"/>
-      <stop offset="1" stop-color="#111827"/>
-    </linearGradient>
-    <linearGradient id="g1" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0" stop-color="#22d3ee"/>
-      <stop offset=".5" stop-color="#38bdf8"/>
-      <stop offset="1" stop-color="#8b5cf6"/>
-    </linearGradient>
-    <linearGradient id="g2" x1="0" y1="1" x2="1" y2="0">
-      <stop offset="0" stop-color="#0ea5e9"/>
-      <stop offset="1" stop-color="#a855f7"/>
-    </linearGradient>
-    <radialGradient id="glow">
-      <stop offset="0" stop-color="#22d3ee" stop-opacity=".22"/>
-      <stop offset="1" stop-color="#22d3ee" stop-opacity="0"/>
-    </radialGradient>
-    <pattern id="grid" width="36" height="36" patternUnits="userSpaceOnUse">
-      <path d="M36 0H0V36" fill="none" stroke="#38bdf8" stroke-opacity=".075" stroke-width="1"/>
-    </pattern>
-    <filter id="neon" x="-80%" y="-80%" width="260%" height="260%">
-      <feGaussianBlur stdDeviation="4" result="blur"/>
-      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
-    </filter>
-    <filter id="soft" x="-80%" y="-80%" width="260%" height="260%">
-      <feGaussianBlur stdDeviation="16"/>
-    </filter>
-    <clipPath id="panel"><rect x="26" y="24" width="1148" height="362" rx="24"/></clipPath>
-  </defs>
-
-  <rect width="1200" height="410" rx="28" fill="url(#bg)"/>
-  <rect x="26" y="24" width="1148" height="362" rx="24" fill="url(#grid)" stroke="#38bdf8" stroke-opacity=".18"/>
-  <ellipse cx="935" cy="168" rx="260" ry="230" fill="url(#glow)"/>
-  <circle cx="195" cy="358" r="160" fill="#7c3aed" opacity=".06"/>
-
-  <g clip-path="url(#panel)">
-    <rect x="28" y="-10" width="1144" height="2" fill="url(#g1)" opacity=".65" filter="url(#neon)">
-      <animate attributeName="y" values="20;386;20" dur="8s" repeatCount="indefinite"/>
-      <animate attributeName="opacity" values=".18;.75;.18" dur="8s" repeatCount="indefinite"/>
-    </rect>
-  </g>
-
-  <g font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="11" fill="#67e8f9" opacity=".75">
-    <text x="52" y="52">SYS::COMPROMISE729</text>
-    <text x="1014" y="52">NODE 729</text>
-    <text x="52" y="370">SECURE_CHANNEL: ACTIVE</text>
-    <text x="995" y="370">DB_CORE // ONLINE</text>
-  </g>
-
-  <g stroke="#22d3ee" stroke-opacity=".33" fill="none" stroke-width="1.2">
-    <path d="M72 98h98l28 28h83"/>
-    <path d="M72 126h65l24 24h108"/>
-    <path d="M72 286h92l30-30h72"/>
-    <circle cx="72" cy="98" r="3" fill="#22d3ee"/>
-    <circle cx="281" cy="126" r="3" fill="#8b5cf6"/>
-    <circle cx="72" cy="286" r="3" fill="#22d3ee"/>
-  </g>
-
-  <g font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace">
-    <text x="76" y="194" fill="#e6f7ff" font-size="48" font-weight="700" letter-spacing="2">CYBER DB CORE</text>
-    <rect x="76" y="212" width="525" height="3" rx="2" fill="url(#g1)">
-      <animate attributeName="width" values="160;525;360;525" dur="7s" repeatCount="indefinite"/>
-    </rect>
-    <text x="78" y="247" fill="#7dd3fc" font-size="16" letter-spacing="2.3">ENCRYPTED DATABASE · DBMS INTERNALS</text>
-    <text x="78" y="276" fill="#a5b4fc" font-size="14" letter-spacing="1.7">SEMANTIC SECURITY / RMDB / INFOSEC</text>
-    <text x="78" y="320" fill="#64748b" font-size="12" letter-spacing="1.35">SECURE BY DESIGN. FAST BY MEASUREMENT.</text>
-  </g>
-
-  <g transform="translate(780 84)">
-    <circle cx="155" cy="124" r="122" fill="none" stroke="#22d3ee" stroke-opacity=".13" stroke-width="1">
-      <animate attributeName="r" values="116;128;116" dur="5s" repeatCount="indefinite"/>
-      <animate attributeName="opacity" values=".15;.5;.15" dur="5s" repeatCount="indefinite"/>
-    </circle>
-    <circle cx="155" cy="124" r="92" fill="#061827" stroke="url(#g2)" stroke-opacity=".6"/>
-    <circle cx="155" cy="124" r="75" fill="none" stroke="#38bdf8" stroke-opacity=".12" stroke-dasharray="4 8">
-      <animateTransform attributeName="transform" type="rotate" from="0 155 124" to="360 155 124" dur="18s" repeatCount="indefinite"/>
-    </circle>
-
-    <ellipse cx="155" cy="89" rx="48" ry="17" fill="#0f2c3d" stroke="#22d3ee" stroke-width="1.5"/>
-    <path d="M107 89v58c0 10 21 18 48 18s48-8 48-18V89" fill="#0b2031" stroke="#38bdf8" stroke-width="1.5"/>
-    <path d="M107 115c0 10 21 18 48 18s48-8 48-18" fill="none" stroke="#38bdf8" stroke-opacity=".75"/>
-    <path d="M107 140c0 10 21 18 48 18s48-8 48-18" fill="none" stroke="#8b5cf6" stroke-opacity=".7"/>
-
-    <rect x="141" y="112" width="28" height="25" rx="5" fill="#091727" stroke="#c4b5fd" stroke-width="1.4"/>
-    <path d="M147 112v-8c0-11 16-11 16 0v8" fill="none" stroke="#67e8f9" stroke-width="1.8"/>
-    <circle cx="155" cy="124" r="3" fill="#22d3ee" filter="url(#neon)"/>
-
-    <g fill="#22d3ee" filter="url(#neon)">
-      <circle cx="155" cy="3" r="3"/>
-      <circle cx="266" cy="124" r="3"/>
-      <circle cx="155" cy="245" r="3"/>
-      <circle cx="44" cy="124" r="3"/>
-    </g>
-    <g stroke="#38bdf8" stroke-opacity=".35" fill="none">
-      <path d="M155 3v28"/>
-      <path d="M266 124h-28"/>
-      <path d="M155 245v-28"/>
-      <path d="M44 124h28"/>
-    </g>
-  </g>
-
-  <g font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="10">
-    <rect x="688" y="314" width="120" height="25" rx="12.5" fill="#042f2e" stroke="#14b8a6" stroke-opacity=".5"/>
-    <text x="709" y="330" fill="#5eead4">SEMANTIC DB</text>
-    <rect x="820" y="314" width="104" height="25" rx="12.5" fill="#082f49" stroke="#38bdf8" stroke-opacity=".5"/>
-    <text x="846" y="330" fill="#7dd3fc">RMDB CORE</text>
-    <rect x="936" y="314" width="116" height="25" rx="12.5" fill="#2e1065" stroke="#8b5cf6" stroke-opacity=".5"/>
-    <text x="958" y="330" fill="#c4b5fd">INFOSEC LAB</text>
-  </g>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="460" viewBox="0 0 1200 460" role="img" aria-labelledby="title desc">
+<title id="title">compromise729 / Database Systems</title>
+<desc id="desc">Encrypted database research, RMDB internals and information security. Animated abstract database core.</desc>
+<defs>
+  <linearGradient id="bg" x2="1" y2="1"><stop stop-color="#080e1d"/><stop offset="1" stop-color="#12112c"/></linearGradient>
+  <linearGradient id="accent"><stop stop-color="#52e2d4"/><stop offset=".5" stop-color="#74bbf4"/><stop offset="1" stop-color="#ad8cff"/></linearGradient>
+  <linearGradient id="glass" x2="1" y2="1"><stop stop-color="#193748" stop-opacity=".85"/><stop offset="1" stop-color="#30234d" stop-opacity=".5"/></linearGradient>
+  <radialGradient id="halo"><stop stop-color="#7960ce" stop-opacity=".2"/><stop offset="1" stop-color="#7960ce" stop-opacity="0"/></radialGradient>
+  <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse"><path d="M32 0H0V32" fill="none" stroke="#70829d" stroke-opacity=".08"/></pattern>
+  <clipPath id="frame"><rect x="1" y="1" width="1198" height="458" rx="18"/></clipPath>
+</defs>
+<style>
+.mono{font-family:Consolas,Menlo,monospace}.sans{font-family:Arial,Helvetica,sans-serif}
+.query{stroke-dasharray:8 14;animation:travel 10s linear infinite}.orbit{transform-origin:937px 219px;animation:rotate 36s linear infinite}.signal{animation:pulse 4s ease-in-out infinite}
+@keyframes travel{to{stroke-dashoffset:-220}}@keyframes rotate{to{transform:rotate(360deg)}}@keyframes pulse{50%{opacity:.35}}
+@media(prefers-reduced-motion:reduce){.query,.orbit,.signal{animation:none}}
+</style>
+<g clip-path="url(#frame)">
+<rect width="1200" height="460" fill="url(#bg)"/>
+<rect x="650" width="550" height="460" fill="url(#grid)"/>
+<ellipse cx="932" cy="213" rx="320" ry="240" fill="url(#halo)"/>
+<path d="M36 63H1164M36 388H1164" stroke="#2d354b"/>
+<g class="mono" font-size="12" letter-spacing="1.5">
+<text x="40" y="39" fill="#c7d5e8">COMPROMISE729</text>
+<text x="1160" y="39" text-anchor="end" fill="#93a5be">DATABASES / SYSTEMS / SECURITY</text>
+</g>
+<g class="mono" font-size="11" letter-spacing="2" fill="#63d8ce"><text x="48" y="111">RESEARCH + ENGINEERING</text></g>
+<g class="sans" font-weight="700" letter-spacing="-2.5">
+<text x="44" y="187" font-size="65" fill="#edf4ff">DATABASE</text>
+<text x="44" y="261" font-size="65" fill="#edf4ff">SYSTEMS<tspan fill="#69e1d5">_</tspan></text>
+</g>
+<g class="mono" font-size="14" fill="#b5c4d8">
+<text x="48" y="308">Security by design.</text>
+<text x="48" y="335" fill="#8fa0bb">Performance by measurement.</text>
+</g>
+<path d="M625 128H699L731 160H800M625 218H804M625 307H701L736 272H800" fill="none" stroke="#374563"/>
+<path d="M625 128H699L731 160H800M625 218H804M625 307H701L736 272H800" fill="none" stroke="url(#accent)" class="query"/>
+<g class="mono" font-size="10" fill="#91a6c0"><text x="628" y="116">QUERY</text><text x="628" y="206">EXECUTE</text><text x="628" y="330">PERSIST</text></g>
+<g fill="none" stroke-width="1">
+<circle cx="937" cy="219" r="151" stroke="#49516e" stroke-opacity=".5"/>
+<circle cx="937" cy="219" r="133" stroke="#556685" stroke-dasharray="1 11"/>
+<circle cx="937" cy="219" r="151" stroke="#9a89d7" stroke-dasharray="90 858" class="orbit"/>
+<path d="M937 108L1033 163V274L937 330L841 274V163Z" fill="url(#glass)" stroke="url(#accent)"/>
+<path d="M937 122L1021 170V267L937 316L853 267V170Z" stroke="#7993ba" stroke-opacity=".3"/>
+</g>
+<g fill="#101e32" stroke="url(#accent)" stroke-width="1.5">
+<path d="M885 180V253C885 265 908 275 937 275S989 265 989 253V180"/>
+<ellipse cx="937" cy="180" rx="52" ry="21" fill="#1d3549"/>
+<path d="M885 204C885 216 908 226 937 226S989 216 989 204M885 228C885 240 908 250 937 250S989 240 989 228" fill="none"/>
+</g>
+<g fill="#71e3d5"><circle cx="900" cy="214" r="2.3"/><circle cx="900" cy="239" r="2.3"/><circle cx="937" cy="68" r="3.5" class="signal"/></g>
+<g class="mono" font-size="9" fill="#a4b7d1" letter-spacing="1"><text x="937" y="184" text-anchor="middle">DB CORE</text></g>
+<g stroke="#64738b" fill="none"><path d="M1098 159H1138V180M1098 279H1138V258M776 219H791"/></g>
+<g class="mono" font-size="11" letter-spacing="1">
+<text x="48" y="424" fill="#71e3d5">01 / ENCRYPTED DATABASE</text>
+<text x="458" y="424" fill="#b8a0f3">02 / RMDB INTERNALS</text>
+<text x="871" y="424" fill="#b2c2d8">03 / INFORMATION SECURITY</text>
+</g>
+</g>
+<rect x="1" y="1" width="1198" height="458" rx="18" fill="none" stroke="#30394f"/>
 </svg>

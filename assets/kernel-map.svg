@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="180" viewBox="0 0 1200 180" role="img" aria-labelledby="title">
+<title id="title">RMDB / Execution, storage and index, transaction and concurrency, logging and recovery</title>
+<defs><linearGradient id="line"><stop stop-color="#5eead4"/><stop offset="1" stop-color="#a78bfa"/></linearGradient></defs>
+<style>text{font-family:Consolas,Menlo,monospace}.flow{stroke-dasharray:6 18;animation:move 12s linear infinite}@keyframes move{to{stroke-dashoffset:-240}}@media(prefers-reduced-motion:reduce){.flow{animation:none}}</style>
+<rect x="1" y="1" width="1198" height="178" rx="14" fill="#0d1423" stroke="#303950"/>
+<path d="M52 94H1148" stroke="#3d4960"/><path d="M52 94H1148" stroke="url(#line)" class="flow"/>
+<g font-size="11" fill="#8396b2" letter-spacing="1.4"><text x="32" y="33">RMDB / AREAS OF ENGINEERING</text></g>
+<g fill="#0d1423" stroke="#6edbd6"><circle cx="52" cy="94" r="4"/><circle cx="346" cy="94" r="4"/></g>
+<g fill="#0d1423" stroke="#b39bec"><circle cx="640" cy="94" r="4"/><circle cx="934" cy="94" r="4"/></g>
+<g font-size="20" fill="#e5edf9"><text x="32" y="74">Execution</text><text x="326" y="74">Storage</text><text x="620" y="74">Transaction</text><text x="914" y="74">Recovery</text></g>
+<g font-size="13" fill="#a0b1ca"><text x="32" y="134">Query / Executor</text><text x="326" y="134">Record / Index</text><text x="620" y="134">Isolation / Concurrency</text><text x="914" y="134">Logging / Durability</text></g>
+</svg>
