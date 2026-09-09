@@ -1,10 +1,3 @@
-<!--
-╔══════════════════════════════════════════════════════════════════════╗
-║  COMPROMISE729 // CYBER DB CORE                                    ║
-║  Database Systems × Information Security                           ║
-╚══════════════════════════════════════════════════════════════════════╝
--->
-
 <p align="center">
   <img src="./assets/cyber-db-core.svg" width="100%" alt="compromise729 · Cyber DB Core"/>
 </p>
@@ -34,7 +27,7 @@ compromise729@cyber-db:~$ cat current_focus
 
 compromise729@cyber-db:~$ cat knowledge_base
 > Nankai University Information Security learning resources
-> notes · labs · reverse engineering · computer systems · engineering practice
+> courseware · learning materials · notes · review materials
 
 compromise729@cyber-db:~$ echo $PRINCIPLE
 > Secure by Design. Fast by Measurement. Clear by Architecture.
@@ -56,11 +49,11 @@ compromise729@cyber-db:~$ echo $PRINCIPLE
 ### `SIGNAL`
 
 ```text
-SECURITY     █████████░
-DATABASE     ██████████
-SYSTEMS      █████████░
-PERFORMANCE  ████████░░
-RESEARCH     ████████░░
+RESEARCH    → Semantic Security
+ENGINEERING → Database Internals
+MEASUREMENT → Latency / Throughput
+LEARNING    → Read / Build / Verify
+SHARING     → NKU Learning Materials
 ```
 
 `C++` `SQL` `Linux` `CMake`  
@@ -107,7 +100,7 @@ RESEARCH     ████████░░
 - 安全性、泄露面、查询能力与性能之间的权衡
 - 面向真实数据库负载的工程化优化
 
-> `PRIVATE RESEARCH` · 仓库名称与源码不在公开主页暴露
+`openGauss` · `Semantic Security` · `Query Optimization`
 
 </td>
 <td width="50%" valign="top">
@@ -288,31 +281,23 @@ TOOLS     :: Git · GitHub · CMake · Docker · GDB · VS Code
 
 ## `06 // SYSTEM.TELEMETRY`
 
-<div align="center">
+<p align="center">
+  <img src="./assets/github-telemetry.svg" width="100%" alt="GitHub 公开仓库统计"/>
+</p>
 
-<img height="170" src="https://github-readme-stats.vercel.app/api?username=compromise729&show_icons=true&hide_border=true&bg_color=0d1117&title_color=00e5ff&icon_color=8b5cf6&text_color=c9d1d9&ring_color=00e5ff&rank_icon=github" alt="GitHub stats"/>
-
-<img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=compromise729&layout=compact&hide_border=true&bg_color=0d1117&title_color=00e5ff&text_color=c9d1d9&langs_count=8" alt="Top languages"/>
-
-</div>
-
-<br/>
-
-<div align="center">
-  <img width="96%" src="https://github-readme-activity-graph.vercel.app/graph?username=compromise729&bg_color=0d1117&color=7dd3fc&line=8b5cf6&point=00e5ff&area=true&area_color=312e81&hide_border=true&custom_title=Contribution%20Signal%20%2F%2F%20compromise729" alt="Contribution activity graph"/>
-</div>
+<p align="center">
+  <img src="./assets/contribution-calendar.svg" width="100%" alt="最近一年的 GitHub 贡献热力图"/>
+</p>
 
 ---
 
 ## `07 // CONTRIBUTION.FLOW`
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/compromise729/compromise729/output/github-contribution-grid-snake-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/compromise729/compromise729/output/github-contribution-grid-snake.svg">
-  <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/compromise729/compromise729/output/github-contribution-grid-snake-dark.svg">
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/github-contribution-grid-snake-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="./assets/github-contribution-grid-snake.svg">
+  <img width="100%" alt="GitHub contribution snake" src="./assets/github-contribution-grid-snake.svg">
 </picture>
-
-> Snake 动画由仓库中的 GitHub Actions 自动生成。首次启用后可手动运行一次工作流。
 
 ---
 
@@ -324,6 +309,6 @@ TOOLS     :: Git · GitHub · CMake · Docker · GDB · VS Code
 
 `compromise729 © Database Systems × Information Security`
 
-<img src="https://capsule-render.vercel.app/api?type=waving&height=100&section=footer&color=0:020617,45:172554,100:312e81" width="100%"/>
+<img src="./assets/footer.svg" width="100%" alt="蓝紫色数据流页脚"/>
 
 </div>

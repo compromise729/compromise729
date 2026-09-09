@@ -1,31 +1,62 @@
-name: Generate contribution snake
+name: Update profile visuals
 
 on:
   schedule:
     - cron: "17 0 * * *"
   workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - .github/workflows/snake.yml
+      - scripts/generate_telemetry.py
 
 permissions:
   contents: write
 
+concurrency:
+  group: profile-visuals
+  cancel-in-progress: false
+
 jobs:
   generate:
+    if: github.ref == 'refs/heads/main'
     runs-on: ubuntu-latest
     timeout-minutes: 10
-
     steps:
-      - name: Generate snake SVG
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.13'
+      - name: Generate public telemetry
+        run: python scripts/generate_telemetry.py
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      - name: Generate contribution snake
         uses: Platane/snk/svg-only@v3
         with:
           github_user_name: compromise729
           outputs: |
-            dist/github-contribution-grid-snake.svg
-            dist/github-contribution-grid-snake-dark.svg?palette=github-dark
-
-      - name: Publish to output branch
-        uses: crazy-max/ghaction-github-pages@v4
-        with:
-          build_dir: dist
-          branch: output
+            assets/github-contribution-grid-snake.svg?color_snake=#7c3aed&color_dots=#ebedf0,#c4b5fd,#a78bfa,#7c3aed,#0891b2
+            assets/github-contribution-grid-snake-dark.svg?palette=github-dark&color_snake=#22d3ee&color_dots=#161b22,#263d70,#4752aa,#8561d5,#22d3ee
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      - name: Validate generated SVGs
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          from xml.etree import ElementTree
+          for name in ('github-telemetry.svg', 'contribution-calendar.svg', 'github-contribution-grid-snake.svg', 'github-contribution-grid-snake-dark.svg'):
+              root = ElementTree.parse(Path('assets') / name).getroot()
+              assert root.tag == '{http://www.w3.org/2000/svg}svg', name
+          PY
+      - name: Commit updated visuals
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add assets/github-telemetry.svg assets/contribution-calendar.svg assets/github-contribution-grid-snake.svg assets/github-contribution-grid-snake-dark.svg
+          if git diff --cached --quiet; then exit 0; fi
+          git commit -m 'chore: refresh profile visuals'
+          git pull --rebase origin main
+          git push origin HEAD:main

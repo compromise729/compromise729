@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="100" viewBox="0 0 1200 100" role="img" aria-label="Cyber DB Core footer">
+  <defs><linearGradient id="wave"><stop stop-color="#0891b2"/><stop offset="1" stop-color="#7c3aed"/></linearGradient></defs>
+  <path d="M0 52 Q300 0 600 52 T1200 52 V100 H0Z" fill="#0d1117"/>
+  <path d="M0 52 Q300 0 600 52 T1200 52" fill="none" stroke="url(#wave)" stroke-width="2"/>
+  <circle r="3" fill="#22d3ee"><animateMotion dur="9s" repeatCount="indefinite" path="M0 52 Q300 0 600 52 T1200 52"/></circle>
+</svg>

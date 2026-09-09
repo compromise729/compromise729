@@ -36,7 +36,6 @@
   <ellipse cx="935" cy="168" rx="260" ry="230" fill="url(#glow)"/>
   <circle cx="195" cy="358" r="160" fill="#7c3aed" opacity=".06"/>
 
-  <!-- animated scanning beam -->
   <g clip-path="url(#panel)">
     <rect x="28" y="-10" width="1144" height="2" fill="url(#g1)" opacity=".65" filter="url(#neon)">
       <animate attributeName="y" values="20;386;20" dur="8s" repeatCount="indefinite"/>
@@ -44,7 +43,6 @@
     </rect>
   </g>
 
-  <!-- corner telemetry -->
   <g font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="11" fill="#67e8f9" opacity=".75">
     <text x="52" y="52">SYS::COMPROMISE729</text>
     <text x="1014" y="52">NODE 729</text>
@@ -52,7 +50,6 @@
     <text x="995" y="370">DB_CORE // ONLINE</text>
   </g>
 
-  <!-- left micro circuit -->
   <g stroke="#22d3ee" stroke-opacity=".33" fill="none" stroke-width="1.2">
     <path d="M72 98h98l28 28h83"/>
     <path d="M72 126h65l24 24h108"/>
@@ -62,7 +59,6 @@
     <circle cx="72" cy="286" r="3" fill="#22d3ee"/>
   </g>
 
-  <!-- title -->
   <g font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace">
     <text x="76" y="194" fill="#e6f7ff" font-size="48" font-weight="700" letter-spacing="2">CYBER DB CORE</text>
     <rect x="76" y="212" width="525" height="3" rx="2" fill="url(#g1)">
@@ -73,7 +69,6 @@
     <text x="78" y="320" fill="#64748b" font-size="12" letter-spacing="1.35">SECURE BY DESIGN. FAST BY MEASUREMENT.</text>
   </g>
 
-  <!-- right database core -->
   <g transform="translate(780 84)">
     <circle cx="155" cy="124" r="122" fill="none" stroke="#22d3ee" stroke-opacity=".13" stroke-width="1">
       <animate attributeName="r" values="116;128;116" dur="5s" repeatCount="indefinite"/>
@@ -84,18 +79,15 @@
       <animateTransform attributeName="transform" type="rotate" from="0 155 124" to="360 155 124" dur="18s" repeatCount="indefinite"/>
     </circle>
 
-    <!-- database -->
     <ellipse cx="155" cy="89" rx="48" ry="17" fill="#0f2c3d" stroke="#22d3ee" stroke-width="1.5"/>
     <path d="M107 89v58c0 10 21 18 48 18s48-8 48-18V89" fill="#0b2031" stroke="#38bdf8" stroke-width="1.5"/>
     <path d="M107 115c0 10 21 18 48 18s48-8 48-18" fill="none" stroke="#38bdf8" stroke-opacity=".75"/>
     <path d="M107 140c0 10 21 18 48 18s48-8 48-18" fill="none" stroke="#8b5cf6" stroke-opacity=".7"/>
 
-    <!-- lock -->
     <rect x="141" y="112" width="28" height="25" rx="5" fill="#091727" stroke="#c4b5fd" stroke-width="1.4"/>
     <path d="M147 112v-8c0-11 16-11 16 0v8" fill="none" stroke="#67e8f9" stroke-width="1.8"/>
     <circle cx="155" cy="124" r="3" fill="#22d3ee" filter="url(#neon)"/>
 
-    <!-- orbital nodes -->
     <g fill="#22d3ee" filter="url(#neon)">
       <circle cx="155" cy="3" r="3"/>
       <circle cx="266" cy="124" r="3"/>
@@ -110,10 +102,9 @@
     </g>
   </g>
 
-  <!-- status pills -->
   <g font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="10">
     <rect x="688" y="314" width="120" height="25" rx="12.5" fill="#042f2e" stroke="#14b8a6" stroke-opacity=".5"/>
-    <text x="709" y="330" fill="#5eead4">SEMANTIC SAFE</text>
+    <text x="709" y="330" fill="#5eead4">SEMANTIC DB</text>
     <rect x="820" y="314" width="104" height="25" rx="12.5" fill="#082f49" stroke="#38bdf8" stroke-opacity=".5"/>
     <text x="846" y="330" fill="#7dd3fc">RMDB CORE</text>
     <rect x="936" y="314" width="116" height="25" rx="12.5" fill="#2e1065" stroke="#8b5cf6" stroke-opacity=".5"/>
