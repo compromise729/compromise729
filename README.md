@@ -6,7 +6,11 @@
 
 [![Typing SVG](https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=20&duration=2500&pause=850&color=00E5FF&center=true&vCenter=true&repeat=true&width=920&height=44&lines=Semantic-Secure+Encrypted+Database;RMDB+%C2%B7+DBMS+Internals+%C2%B7+Storage+%C2%B7+Recovery;Information+Security+%C2%B7+Systems+Engineering;Secure+by+Design.+Fast+by+Measurement.)](https://git.io/typing-svg)
 
-**🔐 密态数据库研究 &nbsp; / &nbsp; ⚙️ RMDB 内核工程 &nbsp; / &nbsp; 🛡️ 信息安全**
+<p>
+  <img src="./assets/badges/encrypted-db.svg" height="28" alt="encrypted db"/>
+  <img src="./assets/badges/rmdb.svg" height="28" alt="rmdb"/>
+  <img src="./assets/badges/infosec.svg" height="28" alt="infosec"/>
+</p>
 
 </div>
 
@@ -18,7 +22,9 @@
 
 ## 🔐 `01 / ENCRYPTED.DATABASE`
 
-<sub>RESEARCH IN PROGRESS &nbsp; · &nbsp; openGauss</sub>
+<p>
+  <img src="./assets/badges/opengauss.svg" height="28" alt="opengauss"/>
+</p>
 
 ### 语义安全约束下的密态数据库优化
 
@@ -28,13 +34,19 @@
 - **执行开销** — 加密计算与数据访问带来的性能代价。
 - **查询安全** — 查询过程中的信息泄露与语义安全要求。
 
-`Semantic Security` &nbsp; `Encrypted Index` &nbsp; `Query Optimization`
+<p>
+  <img src="./assets/badges/semantic-security.svg" height="28" alt="semantic security"/>
+  <img src="./assets/badges/encrypted-index.svg" height="28" alt="encrypted index"/>
+  <img src="./assets/badges/query-optimization.svg" height="28" alt="query optimization"/>
+</p>
 
 <br/>
 
 ## ⚙️ `02 / RMDB.INTERNALS`
 
-<sub>DATABASE MANAGEMENT SYSTEM DESIGN COMPETITION</sub>
+<p>
+  <img src="./assets/badges/competition.svg" height="28" alt="competition"/>
+</p>
 
 ### 从存储到执行，深入数据库内核
 
@@ -48,13 +60,20 @@
 - **事务与恢复** — 并发控制、日志机制与崩溃恢复。
 - **性能与验证** — TPC-C 负载、吞吐、尾延迟与回归检查。
 
-`C++` &nbsp; `Storage Engine` &nbsp; `Transaction` &nbsp; `Recovery`
+<p>
+  <img src="./assets/badges/cpp.svg" height="28" alt="cpp"/>
+  <img src="./assets/badges/storage.svg" height="28" alt="storage"/>
+  <img src="./assets/badges/transaction.svg" height="28" alt="transaction"/>
+  <img src="./assets/badges/recovery.svg" height="28" alt="recovery"/>
+</p>
 
 <br/>
 
 ## 🛡️ `03 / SECURITY.PERSPECTIVE`
 
-<sub>INFORMATION SECURITY × DATABASE SYSTEMS</sub>
+<p>
+  <img src="./assets/badges/security-systems.svg" height="28" alt="security systems"/>
+</p>
 
 **从密码算法到系统实现，关注数据保护、软件安全与数据库可靠性。**
 
@@ -68,13 +87,20 @@
 
 ## 📚 `04 / OPEN.KNOWLEDGE`
 
-<sub>NANKAI UNIVERSITY &nbsp; · &nbsp; INFORMATION SECURITY</sub>
+<p>
+  <img src="./assets/badges/nku.svg" height="28" alt="nku"/>
+</p>
 
 ### [NKU-InformationSecurity ↗](https://github.com/compromise729/NKU-InformationSecurity)
 
 南开大学信息安全**课程课件与学习资料**整理，持续积累笔记、复习材料与实验记录。
 
-`课件` &nbsp; `学习资料` &nbsp; `笔记` &nbsp; `复习材料`
+<p>
+  <img src="./assets/badges/courseware.svg" height="28" alt="courseware"/>
+  <img src="./assets/badges/materials.svg" height="28" alt="materials"/>
+  <img src="./assets/badges/notes.svg" height="28" alt="notes"/>
+  <img src="./assets/badges/review.svg" height="28" alt="review"/>
+</p>
 
 [浏览仓库 →](https://github.com/compromise729/NKU-InformationSecurity) &nbsp;&nbsp; [资料反馈 →](https://github.com/compromise729/NKU-InformationSecurity/issues)
 
@@ -86,13 +112,30 @@
 
 [![Development tools](https://skillicons.dev/icons?i=cpp,c,python,linux,git,cmake,docker&theme=dark&perline=7)](https://skillicons.dev)
 
-`C / C++` &nbsp; `Python` &nbsp; `SQL` &nbsp; `Linux` &nbsp; `Git` &nbsp; `CMake` &nbsp; `GDB`
+<p>
+  <img src="./assets/badges/cpp.svg" height="28" alt="cpp"/>
+  <img src="./assets/badges/python.svg" height="28" alt="python"/>
+  <img src="./assets/badges/sql.svg" height="28" alt="sql"/>
+  <img src="./assets/badges/linux.svg" height="28" alt="linux"/>
+  <img src="./assets/badges/git.svg" height="28" alt="git"/>
+  <img src="./assets/badges/cmake.svg" height="28" alt="cmake"/>
+  <img src="./assets/badges/gdb.svg" height="28" alt="gdb"/>
+</p>
 
 </div>
 
 <br/>
 
-## 🐍 `06 / CONTRIBUTION.FLOW`
+## ⭐ `06 / REPOSITORY.STATS`
+
+<picture>
+  <source media="(max-width: 600px)" srcset="./assets/github-stats-mobile.svg">
+  <img width="100%" src="./assets/github-stats.svg" alt="GitHub 公开仓库的 Star 总数、仓库数与 Fork 总数"/>
+</picture>
+
+<br/>
+
+## 🐍 `07 / CONTRIBUTION.FLOW`
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="./assets/github-contribution-grid-snake-dark.svg">

@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="163" height="28" viewBox="0 0 163 28" role="img" aria-label="DB / ENCRYPTED INDEX">
+<title>DB / ENCRYPTED INDEX</title>
+<rect x=".5" y=".5" width="162" height="27" rx="3" fill="#101827" stroke="#73dccb" stroke-opacity=".75"/>
+<path d="M3 1H34V27H3Q1 27 1 25V3Q1 1 3 1" fill="#16443f"/>
+<path d="M34 1V27" stroke="#73dccb" stroke-opacity=".5"/>
+<g font-family="Consolas,Menlo,monospace" font-size="11" text-anchor="middle">
+<text x="17.0" y="18" fill="#73dccb" font-weight="bold">DB</text>
+<text x="98.5" y="18" fill="#e2eaf4">ENCRYPTED INDEX</text>
+</g></svg>
